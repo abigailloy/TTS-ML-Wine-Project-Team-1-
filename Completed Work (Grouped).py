@@ -380,5 +380,6 @@ plt.figure()
 aw_hist = all_wines.quality.plot(kind='hist', title="Quality Distribution")
 
 adj_aw_hist = all_wines['adjusted quality'].value_counts()
+
 plt.figure()
 adj_aw_hist.plot(kind="bar",ylabel='Frequency', title = "Quality Distribution")
